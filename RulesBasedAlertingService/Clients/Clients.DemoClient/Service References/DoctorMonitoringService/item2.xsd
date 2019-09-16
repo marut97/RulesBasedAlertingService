@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:52300/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Models.PatientVitals" />
+  <xs:import schemaLocation="http://localhost:52300/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Models.PatientAlert" />
+  <xs:element name="SubscribeToVitals">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnsubscribeToVitals">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubscribeToPatientAlerts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnsubscribeToPatientAlerts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadPreviousVitals">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadPreviousVitalsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Models.PatientVitals" minOccurs="0" name="ReadPreviousVitalsResult" nillable="true" type="q1:ArrayOfPatientVitals" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveVitals">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Models.PatientVitals" minOccurs="0" name="vitals" nillable="true" type="q2:PatientVitals" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveAlerts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Models.PatientAlert" minOccurs="0" name="alert" nillable="true" type="q3:PatientAlert" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

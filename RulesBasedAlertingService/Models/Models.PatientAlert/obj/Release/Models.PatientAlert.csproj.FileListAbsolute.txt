@@ -1,0 +1,8 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientAlert\bin\Release\Models.PatientAlert.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientAlert\bin\Release\Models.PatientAlert.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientAlert\obj\Release\Models.PatientAlert.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientAlert\obj\Release\Models.PatientAlert.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientAlert\bin\Release\Models.PatientAlert.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientAlert\bin\Release\Models.PatientAlert.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientAlert\obj\Release\Models.PatientAlert.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientAlert\obj\Release\Models.PatientAlert.pdb

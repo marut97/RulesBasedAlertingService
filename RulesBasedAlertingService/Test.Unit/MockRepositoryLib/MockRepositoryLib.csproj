@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{694C1610-CC01-40A6-A362-ADB6F28CD60A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MockRepositoryLib</RootNamespace>
+    <AssemblyName>MockRepositoryLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Callbacks.cs" />
+    <Compile Include="MockAdmissionRepo.cs" />
+    <Compile Include="MockAlertManager.cs" />
+    <Compile Include="MockBedRepository.cs" />
+    <Compile Include="MockVitalsAlertManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Clients\Clients.VitalsDataClient\Clients.VitalsDataClient.csproj">
+      <Project>{01DDE74C-DC45-49A7-8228-BBC735E3514D}</Project>
+      <Name>Clients.VitalsDataClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.AdmissionRepository\Contracts.AdmissionRepository.csproj">
+      <Project>{4CF3BA5F-6A31-446F-A4A8-6CEF3323DB95}</Project>
+      <Name>Contracts.AdmissionRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.AlertManager\Contracts.AlertManager.csproj">
+      <Project>{5D94179F-BF56-4409-BD14-6F81B6567C86}</Project>
+      <Name>Contracts.AlertManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.HospitalBedRepository\Contracts.HospitalBedRepository.csproj">
+      <Project>{9042F00B-5E41-4FC0-8A89-60C6B454D4DB}</Project>
+      <Name>Contracts.HospitalBedRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.Device\Models.Device.csproj">
+      <Project>{AEB798C5-AEFD-49B4-818C-0F46863E0BCC}</Project>
+      <Name>Models.Device</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.HospitalBed\Models.HospitalBed.csproj">
+      <Project>{54C968B3-FAEF-46D2-9719-C22EC05C598A}</Project>
+      <Name>Models.HospitalBed</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientAdmission\Models.PatientAdmission.csproj">
+      <Project>{AA40BA53-7F40-4FE6-B60C-2EAF1F987880}</Project>
+      <Name>Models.PatientAdmission</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientAlert\Models.PatientAlert.csproj">
+      <Project>{4D487910-757C-40B7-A0C7-75192EB7260A}</Project>
+      <Name>Models.PatientAlert</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientVitals\Models.PatientVitals.csproj">
+      <Project>{835ACA59-2CAE-4E98-982A-29E5F05952E4}</Project>
+      <Name>Models.PatientVitals</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

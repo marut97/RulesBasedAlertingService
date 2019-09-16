@@ -1,0 +1,83 @@
+
+create table DeviceRepository
+(DeviceId  varchar(50) primary Key,
+MinInputValue     float not null,
+  MaxInputValue   float not null
+  );
+
+
+
+create table DefaultLimits
+(DeviceId  varchar(50) foreign key references DeviceRepository(DeviceId) on delete cascade,
+  MinValue     float not null,
+  MaxValue   float not null,
+  LimitType int not null,
+  LimitMessage varchar(max)
+  );
+
+create table PatientRegistration
+(PatientId  varchar(50) primary key,
+  PatientName     varchar(100) not null,
+  Phone   bigint not null,
+  PatientAddress varchar(max) not null,
+  EmergencyContact bigint not null,
+  Email varchar(100) not null,
+  BloodType int not null,
+  );
+
+create table AdmissionHistory
+(PatientId  varchar(50) foreign key references PatientRegistration(PatientId) on delete cascade,
+  Illness   varchar(100) not null,
+  Diagnosis text not null,
+  AdmissionDate datetime not null
+  );
+
+create table DoctorRepository
+(DoctorId varchar(50) not null primary key,
+ DoctorName varchar(100) not null,
+ DoctorStatus int not null,
+ Phone bigint not null,
+ DoctorAddress varchar(max) not null,
+ Department int not null,
+ EmailId varchar(50) not null
+  );
+
+create table HospitalBedRepository
+(
+ Campus varchar(20) not null,
+ FloorNo varchar(10) not null,
+ Wing varchar(10) not null,
+ Room varchar(10) not null,
+ BedNo int not null,
+ PatientId  varchar(50) foreign key references PatientRegistration(PatientId) on delete set null
+  );
+
+
+create table PatientDevices
+(
+
+ PatientId  varchar(50) foreign key references PatientRegistration(PatientId) on delete cascade,
+ DeviceId  varchar(50) foreign key references DeviceRepository(DeviceId) on delete cascade,
+ CustomLimits bit not null
+  );
+
+create table PatientAdmission
+(
+
+ PatientId  varchar(50) foreign key references PatientRegistration(PatientId) on delete cascade,
+ DoctorId varchar(50) foreign key references DoctorRepository(DoctorId) on delete cascade,
+ Illness varchar(100) not null,
+ Diagnosis text not null,
+ AdmissionDate datetime not null,
+ MuteAlert bit not null
+  );
+
+create table CustomLimits
+(
+  PatientId  varchar(50) foreign key references PatientRegistration(PatientId) on delete cascade,
+  DeviceId  varchar(50) foreign key references DeviceRepository(DeviceId) on delete cascade,
+  MinValue     float not null,
+  MaxValue   float not null,
+  LimitType int not null,
+  LimitMessage varchar(max)
+  );

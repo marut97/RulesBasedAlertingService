@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Models.PatientAdmission" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Models.PatientAdmission" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:52320/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Models.HospitalBed" />
+  <xs:import schemaLocation="http://localhost:52320/?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Models.Device" />
+  <xs:complexType name="ArrayOfPatientAdmission">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PatientAdmission" nillable="true" type="tns:PatientAdmission" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPatientAdmission" nillable="true" type="tns:ArrayOfPatientAdmission" />
+  <xs:complexType name="PatientAdmission">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdmissionTime" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Models.HospitalBed" minOccurs="0" name="Bed" nillable="true" type="q1:HospitalBed" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Models.Device" minOccurs="0" name="Devices" nillable="true" type="q2:ArrayOfDevice" />
+      <xs:element minOccurs="0" name="Diagnosis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DoctorId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Illness" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MuteAlert" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PatientId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PatientAdmission" nillable="true" type="tns:PatientAdmission" />
+</xs:schema>

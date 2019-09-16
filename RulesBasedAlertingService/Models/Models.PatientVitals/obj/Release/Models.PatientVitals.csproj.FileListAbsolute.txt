@@ -1,0 +1,9 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientVitals\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientVitals\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientVitals\obj\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.PatientVitals\obj\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientVitals\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientVitals\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientVitals\obj\Release\Models.PatientVitals.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientVitals\obj\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.PatientVitals\obj\Release\Models.PatientVitals.pdb

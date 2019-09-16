@@ -1,0 +1,13 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Contracts.HospitalBedRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Contracts.HospitalBedRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Models.HospitalBed.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Models.HospitalBed.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\obj\Release\Contracts.HospitalBedRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\obj\Release\Contracts.HospitalBedRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Contracts.HospitalBedRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Contracts.HospitalBedRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Models.HospitalBed.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\bin\Release\Models.HospitalBed.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\obj\Release\Contracts.HospitalBedRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\obj\Release\Contracts.HospitalBedRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.HospitalBedRepository\obj\Release\Contracts.HospitalBedRepository.pdb

@@ -1,0 +1,12 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\Test.Unit.VitalsRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\Test.Unit.VitalsRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\Contracts.VitalsRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\DataAccessLayer.VitalsRepositoryLib.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\Contracts.VitalsRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\DataAccessLayer.VitalsRepositoryLib.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\obj\Release\Test.Unit.VitalsRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\obj\Release\Test.Unit.VitalsRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.VitalsRepository\obj\Release\Test.Unit.VitalsRepository.pdb

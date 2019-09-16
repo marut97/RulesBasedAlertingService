@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3BF0AD8-63DB-4AB7-8BD0-2B2313848624}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controllers.AdditionalNurseDataService</RootNamespace>
+    <AssemblyName>Controllers.AdditionalNurseDataService</AssemblyName>
+    <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <XsdCodeGenEnabled>True</XsdCodeGenEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Unity.Abstractions, Version=5.11.1.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.Abstractions.5.11.1\lib\net45\Unity.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Configuration, Version=5.11.1.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.Configuration.5.11.1\lib\net45\Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.11.1.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.Container.5.11.1\lib\net45\Unity.Container.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalNurseDataService.cs" />
+    <Compile Include="IAdditionalNurseDataService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\Contracts.AdmissionRepository\Contracts.AdmissionRepository.csproj">
+      <Project>{4CF3BA5F-6A31-446F-A4A8-6CEF3323DB95}</Project>
+      <Name>Contracts.AdmissionRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.CustomDeviceRepository\Contracts.CustomDeviceRepository.csproj">
+      <Project>{18818D2E-B161-4BF4-89DE-F511657BF1B7}</Project>
+      <Name>Contracts.CustomDeviceRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.DeviceRepository\Contracts.DeviceRepository.csproj">
+      <Project>{132FACFF-712B-460A-BE65-07332D375CC4}</Project>
+      <Name>Contracts.DeviceRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.DoctorRepository\Contracts.DoctorRepository.csproj">
+      <Project>{F0D9B7ED-6BA9-431A-9468-C073DC187321}</Project>
+      <Name>Contracts.DoctorRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.HospitalBedRepository\Contracts.HospitalBedRepository.csproj">
+      <Project>{9042F00B-5E41-4FC0-8A89-60C6B454D4DB}</Project>
+      <Name>Contracts.HospitalBedRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.PatientRepository\Contracts.PatientRepository.csproj">
+      <Project>{A513262F-E0B4-4D44-8916-5372C44FB6F7}</Project>
+      <Name>Contracts.PatientRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.AdmissionRepositoryLib\DataAccessLayer.AdmissionRepositoryLib.csproj">
+      <Project>{AD96E362-CF5F-42CF-9372-8F4AEB7AC83A}</Project>
+      <Name>DataAccessLayer.AdmissionRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.CustomDeviceRepoLib\DataAccessLayer.CustomDeviceRepoLib.csproj">
+      <Project>{0358C899-71FC-4074-B295-E31F0D38FB21}</Project>
+      <Name>DataAccessLayer.CustomDeviceRepoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.DeviceRepositoryLib\DataAccessLayer.DeviceRepositoryLib.csproj">
+      <Project>{BAE25820-5A7B-4BDD-915B-1FD06E322461}</Project>
+      <Name>DataAccessLayer.DeviceRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.DoctorRepositoryLib\DataAccessLayer.DoctorRepositoryLib.csproj">
+      <Project>{9AD893CA-0D85-4D4B-9BC2-C26C61FEE02B}</Project>
+      <Name>DataAccessLayer.DoctorRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.HospitalBedRepoLib\DataAccessLayer.HospitalBedRepoLib.csproj">
+      <Project>{4AECD81D-C529-4C5B-A2A2-B4AFE1EA0425}</Project>
+      <Name>DataAccessLayer.HospitalBedRepoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.PatientRepositoryLib\DataAccessLayer.PatientRepositoryLib.csproj">
+      <Project>{A30A3C61-ADA7-4C28-A8F3-3B9AE3C6A077}</Project>
+      <Name>DataAccessLayer.PatientRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.Doctor\Models.Doctor.csproj">
+      <Project>{71F39834-68ED-413F-B096-C3CE2B584074}</Project>
+      <Name>Models.Doctor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.HospitalBed\Models.HospitalBed.csproj">
+      <Project>{54C968B3-FAEF-46D2-9719-C22EC05C598A}</Project>
+      <Name>Models.HospitalBed</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientAdmission\Models.PatientAdmission.csproj">
+      <Project>{AA40BA53-7F40-4FE6-B60C-2EAF1F987880}</Project>
+      <Name>Models.PatientAdmission</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.Patient\Models.Patient.csproj">
+      <Project>{EA5AA66D-BFD2-4CEB-B581-CA481E93A9B9}</Project>
+      <Name>Models.Patient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utility\Utility.BedParser\Utility.BedParser.csproj">
+      <Project>{48E5377C-FBF3-4392-95A0-11674C620214}</Project>
+      <Name>Utility.BedParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VSToolsPath Condition="'$(VSToolsPath)' == '' and '$(VisualStudioVersion)' != '' and '$(VisualStudioVersion)' != '11.0'">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio</VSToolsPath>
+    <WcfServiceModelTargetPath>$(VSToolsPath)\WCF</WcfServiceModelTargetPath>
+  </PropertyGroup>
+  <Import Project="$(WcfServiceModelTargetPath)\Microsoft.VisualStudio.ServiceModel.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{3D9AD99F-2412-4246-B90B-4EAA41C64699}">
+        <WcfProjectProperties>
+          <AutoStart>True</AutoStart>
+        </WcfProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

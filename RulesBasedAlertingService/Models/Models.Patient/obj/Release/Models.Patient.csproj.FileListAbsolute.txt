@@ -1,0 +1,9 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.Patient\bin\Release\Models.Patient.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.Patient\bin\Release\Models.Patient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.Patient\obj\Release\Models.Patient.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.Patient\obj\Release\Models.Patient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Patient\bin\Release\Models.Patient.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Patient\bin\Release\Models.Patient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Patient\obj\Release\Models.Patient.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Patient\obj\Release\Models.Patient.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Patient\obj\Release\Models.Patient.pdb

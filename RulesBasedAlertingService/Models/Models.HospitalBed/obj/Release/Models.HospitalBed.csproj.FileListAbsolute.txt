@@ -1,0 +1,8 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.HospitalBed\bin\Release\Models.HospitalBed.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.HospitalBed\bin\Release\Models.HospitalBed.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.HospitalBed\obj\Release\Models.HospitalBed.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Models\Models.HospitalBed\obj\Release\Models.HospitalBed.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.HospitalBed\bin\Release\Models.HospitalBed.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.HospitalBed\bin\Release\Models.HospitalBed.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.HospitalBed\obj\Release\Models.HospitalBed.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.HospitalBed\obj\Release\Models.HospitalBed.pdb

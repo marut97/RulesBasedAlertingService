@@ -1,0 +1,14 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Doctor\obj\Debug\Models.Doctor.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Doctor\obj\Debug\Models.Doctor.pdb
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.dll
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.pdb
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\obj\Debug\Models.Doctor.csprojAssemblyReference.cache
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\obj\Debug\Models.Doctor.csproj.CoreCompileInputs.cache
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\obj\Debug\Models.Doctor.dll
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\obj\Debug\Models.Doctor.pdb
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.dll.CodeAnalysisLog.xml
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.dll.lastcodeanalysissucceeded
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.dll.CodeAnalysisLog.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Models\Models.Doctor\bin\Debug\Models.Doctor.dll.lastcodeanalysissucceeded

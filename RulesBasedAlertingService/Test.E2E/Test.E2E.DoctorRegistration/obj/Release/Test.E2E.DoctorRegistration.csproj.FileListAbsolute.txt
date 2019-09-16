@@ -1,0 +1,10 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\bin\Release\Test.E2E.DoctorRegistration.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\bin\Release\Test.E2E.DoctorRegistration.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\bin\Release\Models.Doctor.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\bin\Release\Newtonsoft.Json.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\bin\Release\Models.Doctor.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\bin\Release\Newtonsoft.Json.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\obj\Release\Test.E2E.DoctorRegistration.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\obj\Release\Test.E2E.DoctorRegistration.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.DoctorRegistration\obj\Release\Test.E2E.DoctorRegistration.pdb

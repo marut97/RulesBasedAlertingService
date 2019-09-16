@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1ae4e2b9-9c82-4c1e-8ee8-e9c981ebfe4b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52047/DoctorMonitoringService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DoctorMonitoringService.xsd" MetadataType="Schema" ID="12e9caac-9213-4471-9037-d0f003ac841a" SourceId="1" SourceUrl="http://localhost:52047/DoctorMonitoringService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DoctorMonitoringService1.xsd" MetadataType="Schema" ID="e2066f59-4835-4a80-8841-8a88a87fac77" SourceId="1" SourceUrl="http://localhost:52047/DoctorMonitoringService.svc?xsd=xsd3" />
+    <MetadataFile FileName="DoctorMonitoringService2.xsd" MetadataType="Schema" ID="1b7c640c-b302-4fd3-99b0-f8dba15ae09d" SourceId="1" SourceUrl="http://localhost:52047/DoctorMonitoringService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DoctorMonitoringService3.xsd" MetadataType="Schema" ID="0a401a73-cd85-4d3b-8e79-ba3b99927c33" SourceId="1" SourceUrl="http://localhost:52047/DoctorMonitoringService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DoctorMonitoringService.disco" MetadataType="Disco" ID="1575ec23-1c2f-42ab-a495-93c280770375" SourceId="1" SourceUrl="http://localhost:52047/DoctorMonitoringService.svc?disco" />
+    <MetadataFile FileName="DoctorMonitoringService.wsdl" MetadataType="Wsdl" ID="fa7757ab-c469-4255-a0d7-38ae592d397e" SourceId="1" SourceUrl="http://localhost:52047/DoctorMonitoringService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

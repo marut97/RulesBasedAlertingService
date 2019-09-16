@@ -1,0 +1,14 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Contracts.DoctorRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Contracts.DoctorRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Models.Doctor.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Models.Doctor.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\obj\Release\Contracts.DoctorRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\obj\Release\Contracts.DoctorRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\obj\Release\Contracts.DoctorRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Contracts.DoctorRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Contracts.DoctorRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Models.Doctor.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\bin\Release\Models.Doctor.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\obj\Release\Contracts.DoctorRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\obj\Release\Contracts.DoctorRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.DoctorRepository\obj\Release\Contracts.DoctorRepository.pdb

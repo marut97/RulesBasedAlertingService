@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62160999-2B5B-4A09-A752-C32B897EE6AA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Clients.AdditionalMonitoringClient</RootNamespace>
+    <AssemblyName>Clients.AdditionalMonitoringClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalDataClient.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\AdditionalDoctorDataService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AdditionalNurseDataService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Service References\AdditionalDoctorDataService\AdditionalDoctorDataService.wsdl" />
+    <None Include="Service References\AdditionalDoctorDataService\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalDoctorDataService\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalDoctorDataService\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalDoctorDataService\item3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalDoctorDataService\item4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalDoctorDataService\item5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalDoctorDataService\item6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalDoctorDataService\item7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\AdditionalNurseDataService.wsdl" />
+    <None Include="Service References\AdditionalNurseDataService\Clients.AdditionalMonitoringClient.AdditionalNurseDataService.Doctor.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\Clients.AdditionalMonitoringClient.AdditionalNurseDataService.Patient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\Clients.AdditionalMonitoringClient.AdditionalNurseDataService.PatientAdmission.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdditionalNurseDataService\item7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AdditionalDoctorDataService\" />
+    <WCFMetadataStorage Include="Service References\AdditionalNurseDataService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalNurseDataService\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalNurseDataService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalNurseDataService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalNurseDataService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalDoctorDataService\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalDoctorDataService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalDoctorDataService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdditionalDoctorDataService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

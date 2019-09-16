@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Models.Device" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Models.Device" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfDevice">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Device" nillable="true" type="tns:Device" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDevice" nillable="true" type="tns:ArrayOfDevice" />
+  <xs:complexType name="Device">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DeviceId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Limits" nillable="true" type="tns:ArrayOfLimits" />
+      <xs:element minOccurs="0" name="MaxInputValue" type="xs:double" />
+      <xs:element minOccurs="0" name="MinInputValue" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Device" nillable="true" type="tns:Device" />
+  <xs:complexType name="ArrayOfLimits">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Limits" nillable="true" type="tns:Limits" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLimits" nillable="true" type="tns:ArrayOfLimits" />
+  <xs:complexType name="Limits">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaxValue" type="xs:double" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MinValue" type="xs:double" />
+      <xs:element minOccurs="0" name="Type" type="tns:LimitType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Limits" nillable="true" type="tns:Limits" />
+  <xs:simpleType name="LimitType">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:element name="LimitType" nillable="true" type="tns:LimitType" />
+</xs:schema>

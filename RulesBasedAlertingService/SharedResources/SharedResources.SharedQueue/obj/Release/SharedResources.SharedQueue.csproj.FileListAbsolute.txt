@@ -1,0 +1,14 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\SharedResources.SharedQueue.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\SharedResources.SharedQueue.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\obj\Release\SharedResources.SharedQueue.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\obj\Release\SharedResources.SharedQueue.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\obj\Release\SharedResources.SharedQueue.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\SharedResources.SharedQueue.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\SharedResources.SharedQueue.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\obj\Release\SharedResources.SharedQueue.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\obj\Release\SharedResources.SharedQueue.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.SharedQueue\obj\Release\SharedResources.SharedQueue.pdb

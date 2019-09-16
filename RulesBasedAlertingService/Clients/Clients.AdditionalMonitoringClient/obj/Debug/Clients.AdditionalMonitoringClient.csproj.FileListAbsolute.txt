@@ -1,0 +1,7 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.AdditionalMonitoringClient\bin\Debug\Clients.AdditionalMonitoringClient.exe.config
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.AdditionalMonitoringClient\bin\Debug\Clients.AdditionalMonitoringClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.AdditionalMonitoringClient\bin\Debug\Clients.AdditionalMonitoringClient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.AdditionalMonitoringClient\obj\Debug\Clients.AdditionalMonitoringClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.AdditionalMonitoringClient\obj\Debug\Clients.AdditionalMonitoringClient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.AdditionalMonitoringClient\bin\Debug\Clients.AdditionalMonitoringClient.exe.CodeAnalysisLog.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.AdditionalMonitoringClient\bin\Debug\Clients.AdditionalMonitoringClient.exe.lastcodeanalysissucceeded

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F870859B-EC38-4426-99FB-601664F5DF6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Utility.SqlHelper</RootNamespace>
+    <AssemblyName>Utility.SqlHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlCommands.cs" />
+    <Compile Include="SqlCustomDeviceReader.cs" />
+    <Compile Include="SqlDeviceReader.cs" />
+    <Compile Include="SqlDoctorReader.cs" />
+    <Compile Include="SqlHospitalBedReader.cs" />
+    <Compile Include="SqlPatientAdmissionReader.cs" />
+    <Compile Include="SqlPatientReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Models\Models.Device\Models.Device.csproj">
+      <Project>{AEB798C5-AEFD-49B4-818C-0F46863E0BCC}</Project>
+      <Name>Models.Device</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.Doctor\Models.Doctor.csproj">
+      <Project>{71F39834-68ED-413F-B096-C3CE2B584074}</Project>
+      <Name>Models.Doctor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.HospitalBed\Models.HospitalBed.csproj">
+      <Project>{54C968B3-FAEF-46D2-9719-C22EC05C598A}</Project>
+      <Name>Models.HospitalBed</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientAdmission\Models.PatientAdmission.csproj">
+      <Project>{AA40BA53-7F40-4FE6-B60C-2EAF1F987880}</Project>
+      <Name>Models.PatientAdmission</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.Patient\Models.Patient.csproj">
+      <Project>{EA5AA66D-BFD2-4CEB-B581-CA481E93A9B9}</Project>
+      <Name>Models.Patient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

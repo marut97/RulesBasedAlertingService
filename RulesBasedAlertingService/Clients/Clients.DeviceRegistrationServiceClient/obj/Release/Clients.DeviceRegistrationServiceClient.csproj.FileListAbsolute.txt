@@ -1,0 +1,12 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\Clients.DeviceRegistrationServiceClient.exe.config
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\Clients.DeviceRegistrationServiceClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\Clients.DeviceRegistrationServiceClient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\Models.Device.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\Newtonsoft.Json.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\Models.Device.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\Newtonsoft.Json.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\obj\Release\Clients.DeviceRegistrationServiceClient.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\obj\Release\Clients.DeviceRegistrationServiceClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DeviceRegistrationServiceClient\obj\Release\Clients.DeviceRegistrationServiceClient.pdb

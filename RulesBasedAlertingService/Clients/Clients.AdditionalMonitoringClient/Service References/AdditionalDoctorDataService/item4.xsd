@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:52330/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Models.Patient" />
+  <xs:import schemaLocation="http://localhost:52330/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Models.PatientAdmission" />
+  <xs:import schemaLocation="http://localhost:52330/?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/Models.Doctor" />
+  <xs:element name="ReadAllPatientRegistrations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadAllPatientRegistrationsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Models.Patient" minOccurs="0" name="ReadAllPatientRegistrationsResult" nillable="true" type="q1:ArrayOfPatient" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadPatientRegistration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadPatientRegistrationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Models.Patient" minOccurs="0" name="ReadPatientRegistrationResult" nillable="true" type="q2:Patient" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadAllPatientAdmissions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadAllPatientAdmissionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Models.PatientAdmission" minOccurs="0" name="ReadAllPatientAdmissionsResult" nillable="true" type="q3:ArrayOfPatientAdmission" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadPatientAdmission">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadPatientAdmissionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Models.PatientAdmission" minOccurs="0" name="ReadPatientAdmissionResult" nillable="true" type="q4:PatientAdmission" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadAllDoctors">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadAllDoctorsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Models.Doctor" minOccurs="0" name="ReadAllDoctorsResult" nillable="true" type="q5:ArrayOfDoctor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadDoctor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadDoctorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Models.Doctor" minOccurs="0" name="ReadDoctorResult" nillable="true" type="q6:Doctor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDoctorStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Models.Doctor" minOccurs="0" name="status" type="q7:DoctorStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

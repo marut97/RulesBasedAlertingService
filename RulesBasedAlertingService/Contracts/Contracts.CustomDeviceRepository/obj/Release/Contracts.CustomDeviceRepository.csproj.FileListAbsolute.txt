@@ -1,0 +1,14 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Contracts.CustomDeviceRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Contracts.CustomDeviceRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Models.Device.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Models.Device.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\obj\Release\Contracts.CustomDeviceRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\obj\Release\Contracts.CustomDeviceRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\obj\Release\Contracts.CustomDeviceRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Contracts.CustomDeviceRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Contracts.CustomDeviceRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Models.Device.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\bin\Release\Models.Device.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\obj\Release\Contracts.CustomDeviceRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\obj\Release\Contracts.CustomDeviceRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.CustomDeviceRepository\obj\Release\Contracts.CustomDeviceRepository.pdb

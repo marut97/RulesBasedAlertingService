@@ -1,0 +1,10 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\bin\Release\Test.Unit.SharedQueue.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\bin\Release\Test.Unit.SharedQueue.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\bin\Release\SharedResources.SharedQueue.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\bin\Release\SharedResources.SharedQueue.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\obj\Release\Test.Unit.SharedQueue.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\obj\Release\Test.Unit.SharedQueue.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.Unit\Test.Unit.SharedQueue\obj\Release\Test.Unit.SharedQueue.pdb

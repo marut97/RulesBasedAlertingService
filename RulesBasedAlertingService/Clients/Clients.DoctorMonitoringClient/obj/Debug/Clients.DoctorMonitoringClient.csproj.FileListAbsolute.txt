@@ -1,0 +1,17 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.exe.config
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Debug\Clients.DoctorMonitoringClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Debug\Clients.DoctorMonitoringClient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.exe.CodeAnalysisLog.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.exe.lastcodeanalysissucceeded
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.exe.config
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.exe
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Clients.DoctorMonitoringClient.pdb
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Debug\Clients.DoctorMonitoringClient.csproj.CoreCompileInputs.cache
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Debug\Clients.DoctorMonitoringClient.exe
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Debug\Clients.DoctorMonitoringClient.pdb
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Newtonsoft.Json.dll
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Debug\Newtonsoft.Json.xml
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Debug\Clients.DoctorMonitoringClient.csprojAssemblyReference.cache
+D:\CaseStudy2\Updated\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Debug\Clients.DoctorMonitoringClient.csproj.CopyComplete

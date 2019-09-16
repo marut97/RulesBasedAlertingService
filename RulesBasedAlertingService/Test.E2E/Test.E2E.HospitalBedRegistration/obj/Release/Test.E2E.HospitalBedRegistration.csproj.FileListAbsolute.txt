@@ -1,0 +1,6 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.HospitalBedRegistration\bin\Release\Test.E2E.HospitalBedRegistration.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.HospitalBedRegistration\bin\Release\Test.E2E.HospitalBedRegistration.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.HospitalBedRegistration\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.HospitalBedRegistration\obj\Release\Test.E2E.HospitalBedRegistration.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.HospitalBedRegistration\obj\Release\Test.E2E.HospitalBedRegistration.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.HospitalBedRegistration\obj\Release\Test.E2E.HospitalBedRegistration.pdb

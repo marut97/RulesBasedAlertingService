@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FD77C2E-8CD4-42B0-91B2-88EE82D3A421}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hosts.VitalsDataService</RootNamespace>
+    <AssemblyName>Hosts.VitalsDataService</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Host.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\Contracts.AdmissionRepository\Contracts.AdmissionRepository.csproj">
+      <Project>{4CF3BA5F-6A31-446F-A4A8-6CEF3323DB95}</Project>
+      <Name>Contracts.AdmissionRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.AlertManager\Contracts.AlertManager.csproj">
+      <Project>{5D94179F-BF56-4409-BD14-6F81B6567C86}</Project>
+      <Name>Contracts.AlertManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.CustomDeviceRepository\Contracts.CustomDeviceRepository.csproj">
+      <Project>{18818D2E-B161-4BF4-89DE-F511657BF1B7}</Project>
+      <Name>Contracts.CustomDeviceRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.DeviceRepository\Contracts.DeviceRepository.csproj">
+      <Project>{132FACFF-712B-460A-BE65-07332D375CC4}</Project>
+      <Name>Contracts.DeviceRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.HospitalBedRepository\Contracts.HospitalBedRepository.csproj">
+      <Project>{9042F00B-5E41-4FC0-8A89-60C6B454D4DB}</Project>
+      <Name>Contracts.HospitalBedRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.PatientRepository\Contracts.PatientRepository.csproj">
+      <Project>{A513262F-E0B4-4D44-8916-5372C44FB6F7}</Project>
+      <Name>Contracts.PatientRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.VitalsRepository\Contracts.VitalsRepository.csproj">
+      <Project>{C1F59222-4746-4963-8564-8B2BCBB57CDC}</Project>
+      <Name>Contracts.VitalsRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Controllers\Controllers.VitalsDataService\Controllers.VitalsDataService.csproj">
+      <Project>{AA1BDF86-C2FE-4AE4-BF6C-ED2F61ADD7F6}</Project>
+      <Name>Controllers.VitalsDataService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.AdmissionRepositoryLib\DataAccessLayer.AdmissionRepositoryLib.csproj">
+      <Project>{AD96E362-CF5F-42CF-9372-8F4AEB7AC83A}</Project>
+      <Name>DataAccessLayer.AdmissionRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.CustomDeviceRepoLib\DataAccessLayer.CustomDeviceRepoLib.csproj">
+      <Project>{0358c899-71fc-4074-b295-e31f0d38fb21}</Project>
+      <Name>DataAccessLayer.CustomDeviceRepoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.DeviceRepositoryLib\DataAccessLayer.DeviceRepositoryLib.csproj">
+      <Project>{BAE25820-5A7B-4BDD-915B-1FD06E322461}</Project>
+      <Name>DataAccessLayer.DeviceRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.HospitalBedRepoLib\DataAccessLayer.HospitalBedRepoLib.csproj">
+      <Project>{4AECD81D-C529-4C5B-A2A2-B4AFE1EA0425}</Project>
+      <Name>DataAccessLayer.HospitalBedRepoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.PatientRepositoryLib\DataAccessLayer.PatientRepositoryLib.csproj">
+      <Project>{A30A3C61-ADA7-4C28-A8F3-3B9AE3C6A077}</Project>
+      <Name>DataAccessLayer.PatientRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.VitalsRepositoryLib\DataAccessLayer.VitalsRepositoryLib.csproj">
+      <Project>{EA529E06-31CB-4EFE-96D2-AE0A3F6BCC57}</Project>
+      <Name>DataAccessLayer.VitalsRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Processor\Processor.AlertingUnitLib\Processor.AlertingUnitLib.csproj">
+      <Project>{D720DC8B-3FB7-4D54-BABC-8D60BD4CDC54}</Project>
+      <Name>Processor.AlertingUnitLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Processor\Processor.ProcessingUnitLib\Processor.ProcessingUnitLib.csproj">
+      <Project>{B94027CC-B027-4474-8271-3972BA682183}</Project>
+      <Name>Processor.ProcessingUnitLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SharedResources\SharedResources.AlertMonitorList\SharedResources.AlertMonitorList.csproj">
+      <Project>{89733E04-FBF0-4B56-B0D7-A3848D89A998}</Project>
+      <Name>SharedResources.AlertMonitorList</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SharedResources\SharedResources.VitalsMonitorList\SharedResources.VitalsMonitorList.csproj">
+      <Project>{418EB30E-63CA-4CBE-BC9A-35D3010F7489}</Project>
+      <Name>SharedResources.VitalsMonitorList</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

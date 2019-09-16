@@ -1,0 +1,14 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\SharedResources.VitalsMonitorList.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\SharedResources.VitalsMonitorList.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\obj\Release\SharedResources.VitalsMonitorList.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\obj\Release\SharedResources.VitalsMonitorList.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\obj\Release\SharedResources.VitalsMonitorList.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\SharedResources.VitalsMonitorList.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\SharedResources.VitalsMonitorList.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\obj\Release\SharedResources.VitalsMonitorList.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\obj\Release\SharedResources.VitalsMonitorList.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\SharedResources\SharedResources.VitalsMonitorList\obj\Release\SharedResources.VitalsMonitorList.pdb

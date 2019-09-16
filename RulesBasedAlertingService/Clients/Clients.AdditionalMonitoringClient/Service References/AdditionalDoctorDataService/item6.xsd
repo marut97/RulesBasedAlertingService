@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Models.Patient" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Models.Patient" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfPatient">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Patient" nillable="true" type="tns:Patient" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPatient" nillable="true" type="tns:ArrayOfPatient" />
+  <xs:complexType name="Patient">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BloodType" type="tns:BloodType" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmergencyContact" type="xs:long" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" type="xs:long" />
+      <xs:element minOccurs="0" name="PreviousAdmissions" nillable="true" type="tns:ArrayOfAdmissionHistory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Patient" nillable="true" type="tns:Patient" />
+  <xs:simpleType name="BloodType">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:element name="BloodType" nillable="true" type="tns:BloodType" />
+  <xs:complexType name="ArrayOfAdmissionHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdmissionHistory" nillable="true" type="tns:AdmissionHistory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdmissionHistory" nillable="true" type="tns:ArrayOfAdmissionHistory" />
+  <xs:complexType name="AdmissionHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdmissionDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Diagnosis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Illness" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdmissionHistory" nillable="true" type="tns:AdmissionHistory" />
+</xs:schema>

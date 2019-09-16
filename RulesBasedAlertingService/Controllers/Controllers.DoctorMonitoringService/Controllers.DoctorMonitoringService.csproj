@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B6C6061-B7FD-4987-8813-3929BCDA16BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controllers.DoctorMonitoringService</RootNamespace>
+    <AssemblyName>Controllers.DoctorMonitoringService</AssemblyName>
+    <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <XsdCodeGenEnabled>True</XsdCodeGenEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ICallbackDoctorMonitoringService.cs" />
+    <Compile Include="IDoctorMonitoringService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DoctorMonitoringService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\Contracts.VitalsRepository\Contracts.VitalsRepository.csproj">
+      <Project>{C1F59222-4746-4963-8564-8B2BCBB57CDC}</Project>
+      <Name>Contracts.VitalsRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.VitalsRepositoryLib\DataAccessLayer.VitalsRepositoryLib.csproj">
+      <Project>{EA529E06-31CB-4EFE-96D2-AE0A3F6BCC57}</Project>
+      <Name>DataAccessLayer.VitalsRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientAlert\Models.PatientAlert.csproj">
+      <Project>{4D487910-757C-40B7-A0C7-75192EB7260A}</Project>
+      <Name>Models.PatientAlert</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientVitals\Models.PatientVitals.csproj">
+      <Project>{835ACA59-2CAE-4E98-982A-29E5F05952E4}</Project>
+      <Name>Models.PatientVitals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SharedResources\SharedResources.AlertMonitorList\SharedResources.AlertMonitorList.csproj">
+      <Project>{89733E04-FBF0-4B56-B0D7-A3848D89A998}</Project>
+      <Name>SharedResources.AlertMonitorList</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SharedResources\SharedResources.VitalsMonitorList\SharedResources.VitalsMonitorList.csproj">
+      <Project>{418EB30E-63CA-4CBE-BC9A-35D3010F7489}</Project>
+      <Name>SharedResources.VitalsMonitorList</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VSToolsPath Condition="'$(VSToolsPath)' == '' and '$(VisualStudioVersion)' != '' and '$(VisualStudioVersion)' != '11.0'">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio</VSToolsPath>
+    <WcfServiceModelTargetPath>$(VSToolsPath)\WCF</WcfServiceModelTargetPath>
+  </PropertyGroup>
+  <Import Project="$(WcfServiceModelTargetPath)\Microsoft.VisualStudio.ServiceModel.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{3D9AD99F-2412-4246-B90B-4EAA41C64699}">
+        <WcfProjectProperties>
+          <AutoStart>True</AutoStart>
+        </WcfProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

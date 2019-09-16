@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Models.PatientVitals" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Models.PatientVitals" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfPatientVitals">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PatientVitals" nillable="true" type="tns:PatientVitals" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPatientVitals" nillable="true" type="tns:ArrayOfPatientVitals" />
+  <xs:complexType name="PatientVitals">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PatientId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Vitals" nillable="true" type="tns:ArrayOfVitals" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PatientVitals" nillable="true" type="tns:PatientVitals" />
+  <xs:complexType name="ArrayOfVitals">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Vitals" nillable="true" type="tns:Vitals" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVitals" nillable="true" type="tns:ArrayOfVitals" />
+  <xs:complexType name="Vitals">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DeviceId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Vitals" nillable="true" type="tns:Vitals" />
+</xs:schema>

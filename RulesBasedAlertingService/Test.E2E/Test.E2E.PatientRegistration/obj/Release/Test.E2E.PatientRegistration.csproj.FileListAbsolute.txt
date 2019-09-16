@@ -1,0 +1,10 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\bin\Release\Test.E2E.PatientRegistration.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\bin\Release\Test.E2E.PatientRegistration.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\bin\Release\Models.Patient.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\bin\Release\Newtonsoft.Json.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\bin\Release\Models.Patient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\bin\Release\Newtonsoft.Json.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\obj\Release\Test.E2E.PatientRegistration.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\obj\Release\Test.E2E.PatientRegistration.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Test.E2E\Test.E2E.PatientRegistration\obj\Release\Test.E2E.PatientRegistration.pdb

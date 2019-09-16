@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53C8D968-2851-4811-86E8-86EC2DA3279D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test.Unit.ProcessingUnit</RootNamespace>
+    <AssemblyName>Test.Unit.ProcessingUnit</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Castle.Core.4.4.0\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Moq, Version=4.13.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Moq.4.13.0\lib\net45\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Threading.Tasks.Extensions.4.5.1\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="ProcessingUnitTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VitalsRangeValidatorUnitTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\Contracts.AdmissionRepository\Contracts.AdmissionRepository.csproj">
+      <Project>{4CF3BA5F-6A31-446F-A4A8-6CEF3323DB95}</Project>
+      <Name>Contracts.AdmissionRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.AlertManager\Contracts.AlertManager.csproj">
+      <Project>{5d94179f-bf56-4409-bd14-6f81b6567c86}</Project>
+      <Name>Contracts.AlertManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Contracts\Contracts.VitalsRepository\Contracts.VitalsRepository.csproj">
+      <Project>{C1F59222-4746-4963-8564-8B2BCBB57CDC}</Project>
+      <Name>Contracts.VitalsRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.AdmissionRepositoryLib\DataAccessLayer.AdmissionRepositoryLib.csproj">
+      <Project>{AD96E362-CF5F-42CF-9372-8F4AEB7AC83A}</Project>
+      <Name>DataAccessLayer.AdmissionRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataAccessLayer\DataAccessLayer.VitalsRepositoryLib\DataAccessLayer.VitalsRepositoryLib.csproj">
+      <Project>{EA529E06-31CB-4EFE-96D2-AE0A3F6BCC57}</Project>
+      <Name>DataAccessLayer.VitalsRepositoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.Device\Models.Device.csproj">
+      <Project>{AEB798C5-AEFD-49B4-818C-0F46863E0BCC}</Project>
+      <Name>Models.Device</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.HospitalBed\Models.HospitalBed.csproj">
+      <Project>{54C968B3-FAEF-46D2-9719-C22EC05C598A}</Project>
+      <Name>Models.HospitalBed</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientAdmission\Models.PatientAdmission.csproj">
+      <Project>{AA40BA53-7F40-4FE6-B60C-2EAF1F987880}</Project>
+      <Name>Models.PatientAdmission</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientAlert\Models.PatientAlert.csproj">
+      <Project>{4D487910-757C-40B7-A0C7-75192EB7260A}</Project>
+      <Name>Models.PatientAlert</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.PatientVitals\Models.PatientVitals.csproj">
+      <Project>{835ACA59-2CAE-4E98-982A-29E5F05952E4}</Project>
+      <Name>Models.PatientVitals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Processor\Processor.ProcessingUnitLib\Processor.ProcessingUnitLib.csproj">
+      <Project>{b94027cc-b027-4474-8271-3972ba682183}</Project>
+      <Name>Processor.ProcessingUnitLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SharedResources\SharedResources.SharedQueue\SharedResources.SharedQueue.csproj">
+      <Project>{1C19674B-587E-4104-88E0-A19151679CBC}</Project>
+      <Name>SharedResources.SharedQueue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MockRepositoryLib\MockRepositoryLib.csproj">
+      <Project>{694C1610-CC01-40A6-A362-ADB6F28CD60A}</Project>
+      <Name>MockRepositoryLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Contracts.VitalsRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Contracts.VitalsRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\obj\Release\Contracts.VitalsRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\obj\Release\Contracts.VitalsRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\obj\Release\Contracts.VitalsRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Contracts.VitalsRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Contracts.VitalsRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Models.PatientVitals.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\bin\Release\Models.PatientVitals.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\obj\Release\Contracts.VitalsRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\obj\Release\Contracts.VitalsRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.VitalsRepository\obj\Release\Contracts.VitalsRepository.pdb

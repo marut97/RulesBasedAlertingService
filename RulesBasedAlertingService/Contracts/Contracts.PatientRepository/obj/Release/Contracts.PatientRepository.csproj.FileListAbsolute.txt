@@ -1,0 +1,14 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Contracts.PatientRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Contracts.PatientRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Models.Patient.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Models.Patient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\obj\Release\Contracts.PatientRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\obj\Release\Contracts.PatientRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Chethan\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\obj\Release\Contracts.PatientRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Contracts.PatientRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Contracts.PatientRepository.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Models.Patient.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\bin\Release\Models.Patient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\obj\Release\Contracts.PatientRepository.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\obj\Release\Contracts.PatientRepository.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Contracts\Contracts.PatientRepository\obj\Release\Contracts.PatientRepository.pdb

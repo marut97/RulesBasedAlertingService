@@ -1,0 +1,8 @@
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Release\Clients.DoctorMonitoringClient.exe.config
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Release\Clients.DoctorMonitoringClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Release\Clients.DoctorMonitoringClient.pdb
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Release\Newtonsoft.Json.dll
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\bin\Release\Newtonsoft.Json.xml
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Release\Clients.DoctorMonitoringClient.csprojResolveAssemblyReference.cache
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Release\Clients.DoctorMonitoringClient.exe
+C:\Users\320052456\Documents\Bootcamp\CaseStudy2\Final\RulesBasedAlertingService\Clients\Clients.DoctorMonitoringClient\obj\Release\Clients.DoctorMonitoringClient.pdb
