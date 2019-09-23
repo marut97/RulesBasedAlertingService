@@ -7880,7 +7880,7 @@
 											"top": 1648,
 											"width": 351.533203125,
 											"height": 13,
-											"text": "+Subscribe(string patientId, string id, AlertingFunc func): void",
+											"text": "+Subscribe(string id, AlertingFunc func): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -7897,7 +7897,7 @@
 											"top": 1663,
 											"width": 351.533203125,
 											"height": 13,
-											"text": "+Unsubscribe()",
+											"text": "+Unsubscribe(string id): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -7914,7 +7914,7 @@
 											"top": 1678,
 											"width": 351.533203125,
 											"height": 13,
-											"text": "+IsEmpty()",
+											"text": "+IsEmpty(): bool",
 											"horizontalAlignment": 0
 										},
 										{
@@ -7931,24 +7931,7 @@
 											"top": 1693,
 											"width": 351.533203125,
 											"height": 13,
-											"text": "+TryGetValue()",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFtJotg6RhNGyU=",
-											"_parent": {
-												"$ref": "AAAAAAFtJopdPRgNTXo="
-											},
-											"model": {
-												"$ref": "AAAAAAFtJotgZxhKg70="
-											},
-											"font": "Arial;13;0",
-											"left": 1037,
-											"top": 1708,
-											"width": 351.533203125,
-											"height": 13,
-											"text": "+Dispose()",
+											"text": "+TryGetValue(string id): AlertingFunc",
 											"horizontalAlignment": 0
 										}
 									],
@@ -7956,7 +7939,7 @@
 									"left": 1032,
 									"top": 1643,
 									"width": 361.533203125,
-									"height": 83
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -8283,7 +8266,7 @@
 											"font": "Arial;13;1",
 											"left": 1037,
 											"top": 1479,
-											"width": 271.3115234375,
+											"width": 351.533203125,
 											"height": 13,
 											"text": "VitalsMonitorList"
 										},
@@ -8318,7 +8301,7 @@
 									"font": "Arial;13;0",
 									"left": 1032,
 									"top": 1472,
-									"width": 281.3115234375,
+									"width": 361.533203125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFtJo0TVhiXq1c="
@@ -8345,7 +8328,7 @@
 									"font": "Arial;13;0",
 									"left": 1032,
 									"top": 1497,
-									"width": 281.3115234375,
+									"width": 361.533203125,
 									"height": 10
 								},
 								{
@@ -8370,9 +8353,9 @@
 											"font": "Arial;13;0",
 											"left": 1037,
 											"top": 1512,
-											"width": 271.3115234375,
+											"width": 351.533203125,
 											"height": 13,
-											"text": "+Subscribe(string id, AlertingFunc func): void",
+											"text": "+Subscribe(string id, string patientId, VitalsFunc func): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -8387,9 +8370,9 @@
 											"font": "Arial;13;0",
 											"left": 1037,
 											"top": 1527,
-											"width": 271.3115234375,
+											"width": 351.533203125,
 											"height": 13,
-											"text": "+Unsubscribe(string id): void",
+											"text": "+Unsubscribe(string id, string patientId): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -8404,7 +8387,7 @@
 											"font": "Arial;13;0",
 											"left": 1037,
 											"top": 1542,
-											"width": 271.3115234375,
+											"width": 351.533203125,
 											"height": 13,
 											"text": "+IsEmpty(): bool",
 											"horizontalAlignment": 0
@@ -8421,16 +8404,16 @@
 											"font": "Arial;13;0",
 											"left": 1037,
 											"top": 1557,
-											"width": 271.3115234375,
+											"width": 351.533203125,
 											"height": 13,
-											"text": "+TryGetValue(string id): AlertingFunc",
+											"text": "+TryGetValue(string id): VitalsFunc",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1032,
 									"top": 1507,
-									"width": 281.3115234375,
+									"width": 361.533203125,
 									"height": 68
 								},
 								{
@@ -8470,7 +8453,7 @@
 							"containerChangeable": true,
 							"left": 1032,
 							"top": 1472,
-							"width": 281.3115234375,
+							"width": 361.533203125,
 							"height": 103,
 							"nameCompartment": {
 								"$ref": "AAAAAAFtJo0TVhiWbO4="
@@ -13480,8 +13463,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -184,
-									"top": 192,
+									"left": -88,
+									"top": 176,
 									"width": 10,
 									"height": 10
 								},
@@ -13598,8 +13581,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -184,
-									"top": 192,
+									"left": -88,
+									"top": 176,
 									"width": 10,
 									"height": 10
 								},
@@ -13614,8 +13597,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -184,
-									"top": 192,
+									"left": -88,
+									"top": 176,
 									"width": 10,
 									"height": 10
 								}
@@ -29708,7 +29691,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1383,
+									"left": 1423,
 									"top": 1529,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -29729,7 +29712,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1383,
+									"left": 1423,
 									"top": 1544,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -29750,7 +29733,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1384,
+									"left": 1424,
 									"top": 1499,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -29834,7 +29817,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1337,
+									"left": 1418,
 									"top": 1528,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -29854,7 +29837,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1340,
+									"left": 1421,
 									"top": 1542,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -29874,7 +29857,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1333,
+									"left": 1414,
 									"top": 1501,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -29919,7 +29902,7 @@
 							"tail": {
 								"$ref": "AAAAAAFtJld5wha+02c="
 							},
-							"points": "1456:1520;1312:1520",
+							"points": "1456:1520;1393:1520",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFtXaAYONXISx8="
@@ -41709,8 +41692,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtJoqHGRguD+Y="
 									},
-									"name": "string patientId",
-									"type": ""
+									"name": "string id"
 								},
 								{
 									"_type": "UMLParameter",
@@ -41718,17 +41700,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtJoqHGRguD+Y="
 									},
-									"name": "string id",
-									"type": ""
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFtOEe4ladaNWU=",
-									"_parent": {
-										"$ref": "AAAAAAFtJoqHGRguD+Y="
-									},
-									"name": "AlertingFunc func",
-									"type": ""
+									"name": "AlertingFunc func"
 								},
 								{
 									"_type": "UMLParameter",
@@ -41747,7 +41719,27 @@
 							"_parent": {
 								"$ref": "AAAAAAFtJopdPBgEILM="
 							},
-							"name": "Unsubscribe"
+							"name": "Unsubscribe",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtXayLAEgpZ68=",
+									"_parent": {
+										"$ref": "AAAAAAFtJorkexg1F6w="
+									},
+									"name": "string id",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtXayLAUgq248=",
+									"_parent": {
+										"$ref": "AAAAAAFtJorkexg1F6w="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
 						},
 						{
 							"_type": "UMLOperation",
@@ -41755,7 +41747,18 @@
 							"_parent": {
 								"$ref": "AAAAAAFtJopdPBgEILM="
 							},
-							"name": "IsEmpty"
+							"name": "IsEmpty",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtXayi/01WUHg=",
+									"_parent": {
+										"$ref": "AAAAAAFtJosEHBg8Df8="
+									},
+									"type": "bool",
+									"direction": "return"
+								}
+							]
 						},
 						{
 							"_type": "UMLOperation",
@@ -41763,15 +41766,27 @@
 							"_parent": {
 								"$ref": "AAAAAAFtJopdPBgEILM="
 							},
-							"name": "TryGetValue"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFtJotgZxhKg70=",
-							"_parent": {
-								"$ref": "AAAAAAFtJopdPBgEILM="
-							},
-							"name": "Dispose"
+							"name": "TryGetValue",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtXazVdlH96FI=",
+									"_parent": {
+										"$ref": "AAAAAAFtJotHTBhDpK8="
+									},
+									"name": "string id",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtXazVdlH+SbU=",
+									"_parent": {
+										"$ref": "AAAAAAFtJotHTBhDpK8="
+									},
+									"type": "AlertingFunc",
+									"direction": "return"
+								}
+							]
 						}
 					]
 				},
@@ -41905,8 +41920,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtJo1ACBi94Ug="
 									},
-									"name": "string id",
-									"type": ""
+									"name": "string id"
 								},
 								{
 									"_type": "UMLParameter",
@@ -41914,8 +41928,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtJo1ACBi94Ug="
 									},
-									"name": "AlertingFunc func",
-									"type": ""
+									"name": "string patientId"
 								},
 								{
 									"_type": "UMLParameter",
@@ -41925,6 +41938,14 @@
 									},
 									"type": "void",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtXavXkTip6Pk=",
+									"_parent": {
+										"$ref": "AAAAAAFtJo1ACBi94Ug="
+									},
+									"name": "VitalsFunc func"
 								}
 							]
 						},
@@ -41942,8 +41963,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtJo1e0hjEqWM="
 									},
-									"name": "string id",
-									"type": ""
+									"name": "string id"
 								},
 								{
 									"_type": "UMLParameter",
@@ -41953,6 +41973,15 @@
 									},
 									"type": "void",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtXawSizzMYgo=",
+									"_parent": {
+										"$ref": "AAAAAAFtJo1e0hjEqWM="
+									},
+									"name": "string patientId",
+									"type": ""
 								}
 							]
 						},
@@ -41989,8 +42018,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtJo2utBjSi/s="
 									},
-									"name": "string id",
-									"type": ""
+									"name": "string id"
 								},
 								{
 									"_type": "UMLParameter",
@@ -41998,7 +42026,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtJo2utBjSi/s="
 									},
-									"type": "AlertingFunc",
+									"type": "VitalsFunc",
 									"direction": "return"
 								}
 							]
