@@ -1,11 +1,11 @@
-#Rules Based Alerting Service
+# Rules Based Alerting Service
 
-##Installation
+## Installation
 Use git clone or just paste the given solution in a directory 
 For git clone use the command
-'''
-git clone https://github.com/marut97/RulesBasedAlertingService
-'''
+```
+git clone 
+```
 
 Open the solution (.sln) file.
 This should open up a solution with projects with the following structure:
@@ -20,7 +20,7 @@ This should open up a solution with projects with the following structure:
 - Test.Unit
 - Utility
 
-##Database Setup
+## Database Setup
 
 Create a connection with 2 databases - One for test and another for production.
 Use the following server name
@@ -31,7 +31,7 @@ Production Database Name: RulesBasedAlertingDB
 Test Database Name: RulesBasedAlertingDB.Test
 (Refer Queries.txt for creating tables)
 
-##Documents
+## Documents
 
 The following files have the necessary information:
  - Class Diagram: ClassDiagram.jpg

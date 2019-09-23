@@ -29,7 +29,7 @@ namespace Clients.MonitoringClient
             var doc1Client = new DoctorMonitoringServiceClient(new InstanceContext(new DoctorMonitoringCallback()));
             doc1Client.SubscribeToVitals("111", "100");
             doc1Client.SubscribeToPatientAlerts("100");
-
+            
             var doc2Client = new DoctorMonitoringServiceClient(new InstanceContext(new DoctorMonitoringCallback()));
             doc2Client.SubscribeToVitals("222", "200");
             doc2Client.SubscribeToPatientAlerts("200");
